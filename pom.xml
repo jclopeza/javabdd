@@ -22,6 +22,22 @@
 
 	<build>
 		<plugins>
+		
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>3.4.0.905</version>
+				<executions>
+					<execution>
+						<id>sonar-analysis</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>sonar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		
 		</plugins>
 	</build>
 
