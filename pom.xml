@@ -23,7 +23,7 @@
 
     <build>
         <plugins>
-        <!-- Plugin Sonar -->
+        <!-- Plugin Sonar. -->
             <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
