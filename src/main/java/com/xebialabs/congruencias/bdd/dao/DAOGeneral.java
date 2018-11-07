@@ -13,7 +13,6 @@ public class DAOGeneral {
 
 	public DAOGeneral() {
 		//Este es el constructor de la clase
-		//Este es el constructor de la clase
 	}
 
 	public static Connection getConexion_bdd() {
