@@ -12,7 +12,7 @@
     <version>8.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <!-- New version -->
+    <!-- News versions -->
     <dependencies>
         <dependency>
             <groupId>mysql</groupId>
